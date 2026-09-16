@@ -1,26 +1,134 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-plum: #5b2a6e;
+  --color-plum-dark: #3e1c4c;
+  --color-lilac: #f6f0fa;
+  --color-citrus: #f2b705;
+  --color-ink: #2b1533;
+  --font-display: var(--font-playfair), Georgia, serif;
+  --font-body: var(--font-nunito), system-ui, sans-serif;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+:root {
+  --background: #f6f0fa;
+  --foreground: #2b1533;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-body);
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: var(--font-display);
+}
+
+::selection {
+  background: #f2b705;
+  color: #2b1533;
+}
+
+a {
+  text-underline-offset: 3px;
+}
+
+:focus-visible {
+  outline-color: #5b2a6e;
+}
+
+.prose-vapour h2 {
+  margin-top: 2.5rem;
+  margin-bottom: 0.9rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #5b2a6e;
+}
+
+.prose-vapour h3 {
+  margin-top: 1.8rem;
+  margin-bottom: 0.6rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #5b2a6e;
+}
+
+.prose-vapour p {
+  margin-bottom: 1.1rem;
+}
+
+.prose-vapour ul,
+.prose-vapour ol {
+  margin-bottom: 1.1rem;
+  padding-left: 1.4rem;
+}
+
+.prose-vapour ul {
+  list-style: disc;
+}
+
+.prose-vapour ol {
+  list-style: decimal;
+}
+
+.prose-vapour li {
+  margin-bottom: 0.45rem;
+}
+
+.prose-vapour a {
+  color: #5b2a6e;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: #f2b705;
+  text-decoration-thickness: 2px;
+}
+
+.prose-vapour a:hover {
+  color: #3e1c4c;
+}
+
+.prose-vapour strong {
+  color: #2b1533;
+  font-weight: 700;
+}
+
+.prose-vapour blockquote {
+  margin: 1.6rem 0;
+  border-left: 4px solid #f2b705;
+  padding-left: 1.2rem;
+  font-style: italic;
+  color: #5b2a6e;
+}
+
+.prose-vapour table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.6rem 0;
+  font-size: 0.92rem;
+}
+
+.prose-vapour th,
+.prose-vapour td {
+  border: 1px solid rgba(91, 42, 110, 0.15);
+  padding: 0.6rem 0.8rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.prose-vapour th {
+  background: #f6f0fa;
+  color: #5b2a6e;
+  font-weight: 700;
+}
+
+.prose-vapour .callout {
+  border-radius: 1.5rem;
+  background: #f6f0fa;
+  border: 1px solid rgba(91, 42, 110, 0.12);
+  padding: 1.2rem 1.4rem;
+  margin: 1.6rem 0;
 }
