@@ -173,7 +173,13 @@ export default function Page() {
         final ratio slightly toward PG. It's a small shift on a large
         bottle, so it rarely changes the feel dramatically, but it's worth
         knowing if a shortfill tastes a touch sharper once a nic shot has
-        gone in than it did straight from the bottle.
+        gone in than it did straight from the bottle. For a full walkthrough
+        of why shortfills are built this way and the maths for working out
+        your final nicotine strength once a shot's been added, see{" "}
+        <Link href="/guides/shortfills-explained-what-they-are-and-how-to-use-them">
+          our guide to shortfills and nicotine shots
+        </Link>
+        .
       </p>
       <p>
         Some more experienced vapers mix their own ratios from scratch

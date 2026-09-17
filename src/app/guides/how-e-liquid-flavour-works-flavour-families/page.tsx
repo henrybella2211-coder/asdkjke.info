@@ -68,7 +68,13 @@ export default function Page() {
         cooling agent, most commonly WS-23, layered on top of a fruit or
         drink flavour to give a chilled finish without adding a strong
         minty taste. That's how you get liquids like "watermelon ice" that
-        taste mostly of watermelon with a cold sensation on the exhale.
+        taste mostly of watermelon with a cold sensation on the exhale. We
+        go into much more detail on how that cooling sensation actually
+        works, and how it can be confused with true menthol, in{" "}
+        <Link href="/guides/menthol-and-ice-e-liquids-explained">
+          our menthol and ice explainer
+        </Link>
+        .
       </p>
 
       <h3>Dessert and bakery</h3>

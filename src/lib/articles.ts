@@ -71,6 +71,32 @@ export const articles: Article[] = [
     imageAlt:
       "A shelf lined with a range of small e-liquid bottles of varying colours",
   },
+  {
+    slug: "menthol-and-ice-e-liquids-explained",
+    title: "Menthol and ice e-liquids explained",
+    excerpt:
+      "Menthol and \"ice\" get lumped together on shelves, but they're not the same flavour. How cooling agents actually work, why some vapers prefer them, and how to try one for the first time.",
+    category: "Flavour Families",
+    readTime: "8 min read",
+    lastUpdated: "Last updated 16 September 2026",
+    lastUpdatedISO: "2026-09-16",
+    image: "/images/clear-ice-cubes-close-up.jpg",
+    imageAlt:
+      "Close-up of clear ice cubes stacked together with light reflecting off their surfaces",
+  },
+  {
+    slug: "shortfills-explained-what-they-are-and-how-to-use-them",
+    title: "Shortfills explained: what they are and how to use them",
+    excerpt:
+      "Why a 50ml bottle of e-liquid is often sold with no nicotine in it, what a nicotine shot actually does to it, and the simple maths for reaching the strength you want.",
+    category: "Buying & Labels",
+    readTime: "8 min read",
+    lastUpdated: "Last updated 18 September 2026",
+    lastUpdatedISO: "2026-09-18",
+    image: "/images/large-eliquid-bottles-held.jpg",
+    imageAlt:
+      "A hand holding four large capped e-liquid bottles with colourful fruit-flavour labels",
+  },
 ];
 
 export function getArticle(slug: string): Article | undefined {

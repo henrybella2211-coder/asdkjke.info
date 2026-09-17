@@ -37,7 +37,7 @@ const flavourFamilies = [
 ];
 
 export default function Home() {
-  const [featured, ...rest] = articles;
+  const [featured, ...rest] = articles.slice(0, 3);
 
   return (
     <>
